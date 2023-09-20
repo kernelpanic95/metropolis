@@ -111,7 +111,7 @@ hr {
   }
 
 .product-list{
-    height: 30vh;
+    height: 45vh;
 }
 
 .h2-custom{
@@ -128,7 +128,14 @@ hr {
     color:var(--white);
     font-size: 24px;
     list-style: none;
-    word-spacing: 2em;
+}
+
+pre{
+
+    color: var(--white);
+    font-size: 24px;
+    list-style: none;
+
 }
 
 .allergies{

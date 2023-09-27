@@ -87,6 +87,58 @@ body{
     height: 25vh;
 }
 
+.container{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons{
+    padding: 30px;
+    margin: 30px;
+}
+
+.btn-custom{
+    height: 60px;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: inherit;
+    font-weight: bold;
+    color: black;
+    border-radius: 30px;
+}
+a{
+    font-family: inherit;
+    text-size-adjust: 22px;
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover{
+    font-family: inherit;
+    text-size-adjust: 22px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.btn-custom:hover{
+    height: 60px;
+    width: 250px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: inherit;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border-color: rgb(163, 120, 39);
+}
+
 .h1-custom{
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
@@ -111,7 +163,27 @@ hr {
   }
 
 .product-list{
-    height: 45vh;
+    height: 80vh;
+}
+
+.product-category{
+    height: 25vh;
+}
+
+.product-category a{
+    border: 1px solid;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.product-category a:hover{
+    cursor: pointer;
+    border: 2px solid;
+    border-color: burlywood;
+    color: burlywood;
 }
 
 .h2-custom{

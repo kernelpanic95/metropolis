@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Metropolis caffè - Menù</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
 
     <header class="header-custom d-flex justify-center align-center">
         <div>
-            <img src="./media/metropolis_logo.png" alt="logo" class="logo ml">
+            <img src="./media/metropolis_logo.png" alt="logo" class="logo ml" id="top">
         </div>
         <div>
             <h1 class="h1-custom textW justify-center align-center">Menu</h1>
@@ -26,15 +26,254 @@
 
     <main>
 
-        <div class="container justify-center align-center pb mb">
+        <div class="container-btn d-flex justify-center align-center pb mb">
             <div class="buttons d-flex justify-center align-center">
-                <button class="btn-custom"><a href="./caffetteria.html">Caffetteria & Pasticceria</a></button>
+                <button class="btn-custom"><a href="#caffetteria">Caffetteria</a></button>
             </div>
             <div class="buttons d-flex justify-center align-center">
-                <button class="btn-custom"><a href="./aperitivi.html">Aperitivi & Bibite</a></button>
+                <button class="btn-custom"><a href="#aperitivi">Aperitivi</a></button>
             </div>
             <div class="buttons d-flex justify-center align-center">
-                <button class="btn-custom"><a href="./cocktail.html">Cocktails & Alcolici</a></button>
+                <button class="btn-custom"><a href="#cocktail">Cocktails</a></button>
+            </div>
+            <div class="buttons d-flex justify-center align-center">
+                <button class="btn-custom"><a href="#friggitoria">Stuzzicheria</a></button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="container-menu">
+            <div class="prd-title">
+                <h2 class="h2-custom" id="caffetteria">Caffetteria</h2>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè Espresso</div>
+                <div class="price">€1,10</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè in ghiaccio</div>
+                <div class="price">€1,20</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè Decaffeinato</div>
+                <div class="price">€1,20</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè Ginseng</div>
+                <div class="price">€1,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè Nocciolino</div>
+                <div class="price">€1,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè d'Orzo</div>
+                <div class="price">€1,20</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè Freddo</div>
+                <div class="price">€1,20</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Caffè Shakerato</div>
+                <div class="price">€3,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Cappuccino</div>
+                <div class="price">€1,20</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Cappuccino d'Orzo</div>
+                <div class="price">€1,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Cappuccino Ginseng</div>
+                <div class="price">€1,70</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Latte</div>
+                <div class="price">€1,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Latte Macchiato</div>
+                <div class="price">€1,20</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Espressino Deca</div>
+                <div class="price">€1,30</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Espressino Ginseng</div>
+                <div class="price">€1,60</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Espressino d'Orzo</div>
+                <div class="price">€1,30</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Tisane</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Thè & Camomille</div>
+                <div class="price">€2,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Espressino Freddo</div>
+                <div class="price">€3,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Crema di Caffè</div>
+                <div class="price">€3,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Brioches & Cornetti </div>
+                <div class="price">€1,30</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Pasticciotto</div>
+                <div class="price">€1,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Cornetteria GLutenFree </div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">**Correzioni**</div>
+                <div class="price">+€0,20</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">**Asporto**</div>
+                <div class="price">+€0,10</div>
+            </div>
+
+        </div>
+
+        <div class="container-menu">
+            <div class="prd-title">
+                <h2 class="h2-custom" id="aperitivi">Aperitivi</h2>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Tris</div>
+                <div class="price">€1,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Alcolici</div>
+                <div class="price">€5,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Aranciata</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Coca Cola</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Lemon Soda</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Cedrata Tassoni</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Acqua Tonica</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Chinotto</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Thè Freddo</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Succhi di Frutta</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Spremuta d'Arancia</div>
+                <div class="price">€3,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Spremuta al Melograno</div>
+                <div class="price">€4,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Rustico Wurstel</div>
+                <div class="price">€1,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Rustico Pomodoro & Mozzarella</div>
+                <div class="price">€2,00</div>
+            </div>
+
+        </div>
+
+        <div class="container-menu">
+            <div class="prd-title">
+                <h2 class="h2-custom" id="cocktail">Cocktails</h2>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Aperol Spritz</div>
+                <div class="price">€5,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Campari Spritz</div>
+                <div class="price">€5,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Molisano</div>
+                <div class="price">€5,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Negroni</div>
+                <div class="price">€6,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Negroni Sbagliato</div>
+                <div class="price">€6,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Americano</div>
+                <div class="price">€6,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Gin Tonic - a partire da</div>
+                <div class="price">€6,00</div>
+            </div>
+
+        </div>
+
+        <div class="container-menu">
+            <div class="prd-title">
+                <h2 class="h2-custom" id="friggitoria">Stuzzicheria</h2>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Crocchette di Patate</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Polpette di Carne</div>
+                <div class="price">€3,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Panzerottini</div>
+                <div class="price">€2,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Bocconcini di Pollo</div>
+                <div class="price">€3,00</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Trancio Focaccia Barese</div>
+                <div class="price">€1,50</div>
+            </div>
+            <div class="product-list">
+                <div class="product-name">Misto (al pezzo)</div>
+                <div class="price">€0,50</div>
             </div>
 
         </div>
@@ -42,7 +281,9 @@
     </main>
 
     <footer>
-        <hr>
+        
+        <div><a class="textW d-flex justify-center align-center pt mt ml pl" href="#top">Torna su&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-circle"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4"/><path d="M12 16V8"/></svg></a></div>
+
         <div class="textW d-flex justify-center align-center pt mt ml pl">
             &copy;2023 copyright
             <a class="textW" href="https://instagram.com/kernelpanic.sh"> &nbsp;->&nbsp;kernelpanic.sh</a>

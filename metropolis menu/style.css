@@ -165,7 +165,7 @@ hr {
   
   hr:after {
     background: var(--black);
-    content: '§';
+    content: 'M';
     padding: 0 4px;
     position: relative;
     top: -13px;

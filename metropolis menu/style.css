@@ -209,6 +209,28 @@ hr {
     margin: 0;
 }
 
+.product-descr{
+    display: flex;
+    width: auto;
+    font-size: 13px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 235px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px){
+.product-descr{
+    display: flex;
+    width: auto;
+    font-size: 13px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 36px;
+    margin: 0;
+}
+}
+
 .price{
     display: flex;
     width: 30vw;
